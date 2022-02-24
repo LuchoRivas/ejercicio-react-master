@@ -1,0 +1,19 @@
+.fee-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: #00355d;
+}
+
+.fee-value {
+	align-self: center;
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.fee-text {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-right: 2rem;
+}

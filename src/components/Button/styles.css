@@ -1,0 +1,22 @@
+.styled-btn {
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer;
+	color: white;
+	border: none;
+	outline: none;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.5rem 0;
+}
+
+.main-btn {
+	flex: 4;
+	font-size: 1.49rem;
+	background-color: var(--main-btn-color);
+}
+
+.secondary-btn {
+	margin-left: 0.7rem;
+	flex: 2;
+	background-color: var(--secondary-btn-color);
+}

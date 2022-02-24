@@ -1,0 +1,71 @@
+.styled-input {
+	text-align: center;
+	width: 7rem;
+	padding: 5px;
+	line-height: 1;
+	font-size: 1.25rem;
+	border: none;
+	color: white;
+	font-weight: 900;
+	background-color: transparent;
+	outline-width: 20px;
+	outline-style: solid;
+	outline-color: transparent;
+}
+
+.slider-input {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 3.5rem;
+}
+
+.slider-input-container {
+	display: flex;
+	align-items: center;
+	border: 1px solid white;
+}
+
+.slider-input-label {
+	text-transform: uppercase;
+}
+
+.slider-styles {
+	width: 90%;
+	margin: 1rem auto;
+}
+
+.currency-simbol {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.25rem;
+	margin-left: 1rem;
+}
+
+.styled-input > i {
+	position: absolute;
+	display: block;
+	transform: translate(0, -50%);
+	top: 50%;
+	pointer-events: none;
+	width: 25px;
+	text-align: center;
+	font-style: normal;
+}
+
+.styled-input > input {
+	padding-left: 25px;
+	padding-right: 0;
+}
+
+/* remove input number indicator arrows */
+::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+[type='number'] {
+	-moz-appearance: textfield;
+}

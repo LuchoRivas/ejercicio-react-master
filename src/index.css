@@ -1,0 +1,29 @@
+:root {
+	--main-start-bg-color: #084f85;
+	--main-end-bg-color: #013c68;
+
+	--container-bg-color: #003b67;
+
+	--main-btn-color: #17aa8d;
+	--secondary-btn-color: #0b548b;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	background: linear-gradient(var(--main-start-bg-color), var(--main-end-bg-color));
+	color: white;
+}
+
+.title {
+	margin: 0 0 3.75rem 0;
+}
+
+.container {
+	background-color: var(--container-bg-color);
+	padding: 4.38rem 3rem;
+}
+
+.button-container {
+	display: flex;
+}
