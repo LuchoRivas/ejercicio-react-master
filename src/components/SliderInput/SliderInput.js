@@ -1,6 +1,6 @@
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
-import MarkStyle from '../../constants/MarkStyle';
+import { MarkStyle, SliderConfigStyle } from '../../constants/SliderConfig';
 import { CurrencyHelper } from '../../helpers/CurrencyHelper';
 
 const SliderInput = (props) => {
@@ -36,9 +36,9 @@ const SliderInput = (props) => {
 				onChange={(val) => onChange(val)}
 				min={minValue}
 				max={maxValue}
-				dotStyle={{ display: 'none' }}
-				railStyle={{ borderRadius: '0' }}
-				handleStyle={{ border: 'none' }}
+				dotStyle={SliderConfigStyle.dotStyle}
+				railStyle={SliderConfigStyle.railStyle}
+				handleStyle={SliderConfigStyle.handleStyle}
 			/>
 		</div>
 	);
