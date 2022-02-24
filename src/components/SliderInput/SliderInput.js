@@ -4,7 +4,7 @@ import { MarkStyle, SliderConfigStyle } from '../../constants/SliderConfig';
 import { CurrencyHelper } from '../../helpers/CurrencyHelper';
 
 const SliderInput = (props) => {
-	const { value, minValue, maxValue, label = 'default', currency = false, onChange } = props;
+	const { value, minValue, maxValue, label, currency = false, onChange } = props;
 
 	const marks = {
 		[minValue]: {
@@ -19,7 +19,7 @@ const SliderInput = (props) => {
 
 	return (
 		<div className="slider-input">
-			<label className="slider-input-label">{label}</label>
+			{label && <label className="slider-input-label">{label}</label>}
 			<div className="slider-input-container">
 				{currency && <i className="currency-simbol">$</i>}
 				<input
