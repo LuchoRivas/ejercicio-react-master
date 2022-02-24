@@ -22,6 +22,7 @@ body {
 .container {
 	background-color: var(--container-bg-color);
 	padding: 4.38rem 3rem;
+	min-width: 31.6rem;
 }
 
 .button-container {

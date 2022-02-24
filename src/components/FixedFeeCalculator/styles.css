@@ -2,13 +2,13 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem;
+	padding: 0.25rem 2rem;
 	background-color: #00355d;
 }
 
 .fee-value {
 	align-self: center;
-	font-size: 3rem;
+	font-size: 2.4rem;
 	font-weight: 900;
 }
 

@@ -37,7 +37,9 @@ const SliderInput = (props) => {
 				onChange={(val) => onChange(val)}
 				min={minValue}
 				max={maxValue}
-				step={1}
+				dotStyle={{ display: 'none' }}
+				railStyle={{ borderRadius: '0' }}
+				handleStyle={{ border: 'none' }}
 			/>
 		</div>
 	);
