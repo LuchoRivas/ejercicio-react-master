@@ -14,17 +14,3 @@ body {
 	background: linear-gradient(var(--main-start-bg-color), var(--main-end-bg-color));
 	color: white;
 }
-
-.title {
-	margin: 0 0 3.75rem 0;
-}
-
-.container {
-	background-color: var(--container-bg-color);
-	padding: 4.38rem 3rem;
-	min-width: 31.6rem;
-}
-
-.button-container {
-	display: flex;
-}

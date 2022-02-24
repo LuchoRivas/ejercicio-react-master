@@ -23,7 +23,6 @@ const SliderInput = (props) => {
 			<div className="slider-input-container">
 				{currency && <i className="currency-simbol">$</i>}
 				<input
-					max={100}
 					className="styled-input"
 					onChange={(ev) => onChange(ev.target.value <= maxValue ? ev.target.value : maxValue)}
 					value={value}
